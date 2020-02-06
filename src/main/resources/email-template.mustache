@@ -1,0 +1,17 @@
+<table>
+    {{#items}}
+    <tr>
+        <td>Name: {{name}}</td>
+        <td>Price: {{price}}</td>
+        <td>
+            <table>
+                {{#features}}
+                <tr>
+                    <td>Feature: {{description}}</td>
+                </tr>
+                {{/features}}
+            </table>
+        </td>
+    </tr>
+    {{/items}}
+</table>
